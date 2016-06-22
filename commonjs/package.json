@@ -1,0 +1,12 @@
+{
+  "name": "commonjs",
+  "private": true,
+  "scripts": {
+    "build": "mkdir -p dist && browserify -t uglifyify app.js -o dist/app.min.js"
+  },
+  "dependencies": {
+    "browserify": "13.0.1",
+    "jquery": "3.0.0",
+    "uglifyify": "3.0.2"
+  }
+}

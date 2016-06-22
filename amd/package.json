@@ -1,0 +1,11 @@
+{
+  "name": "amd",
+  "private": true,
+  "scripts": {
+    "build": "r.js -o app.build.js"
+  },
+  "dependencies": {
+    "jquery": "3.0.0",
+    "requirejs": "2.2.0"
+  }
+}
