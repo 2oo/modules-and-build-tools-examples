@@ -1,10 +1,2 @@
-import Add from './add';
-import Multiply from './multiply';
-
-export const add = Add;
-export const multiply = Multiply;
-
-export default {
-    add,
-    multiply
-};
+export {default as add} from './add';
+export {default as multiply} from './multiply';
